@@ -88,13 +88,20 @@ python setup.py install
 
 # Train
 
-**Training on UBFC-rPPG and Test on PURE**
+### Cross-dataset
+
+- **Training on UBFC-rPPG and Test on PURE**
 
 1. Modify the configuration file `./configs/train_configs/UBFC-rPPG_UBFC-rPPG_PURE_PHYSMAMBA`
-2. Run `python main.py --config_file /root/rPPG-Toolbox/configs/infer_configs/UBFC-rPPG_PURE_PHYSMAMBA_BASIC.yaml`
+2. Run `python main.py --config_file ./configs/infer_configs/UBFC-rPPG_PURE_PHYSMAMBA_BASIC.yaml`
 
-**Training on PURE and Test on UBFC-rPPG**
+- **Training on PURE and Test on UBFC-rPPG**
 
 1. Modify the configuration file `./configs/train_configs/PURE_PURE_UBFC-rPPG_PHYSMAMBA_BASIC.yaml`
-2. Run `python main.py --config_file /root/rPPG-Toolbox/configs/train_configs/PURE_PURE_UBFC-rPPG_PHYSMAMBA_BASIC.yaml`
+2. Run `python main.py --config_file ./configs/train_configs/PURE_PURE_UBFC-rPPG_PHYSMAMBA_BASIC.yaml`
+
+### Intro-dataset on UBFC-rPPG
+
+1. Modify the configuration file `./configs/train_configs/UBFC_INTRO_PHYSMAMBA.yaml`
+2. Run `python main.py --config_file ./configs/infer_configs/UBFC_INTRO_PHYSMAMBA.yaml`
 
