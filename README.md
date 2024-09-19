@@ -106,3 +106,17 @@ python setup.py install
 1. Modify the configuration file `./configs/train_configs/UBFC_INTRO_PHYSMAMBA.yaml`
 2. Run `python main.py --config_file ./configs/infer_configs/UBFC_INTRO_PHYSMAMBA.yaml`
 
+# Citation
+
+```latex
+@misc{luo2024physmamba,
+      title={PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba}, 
+      author={Chaoqi Luo and Yiping Xie and Zitong Yu},
+      year={2024},
+      eprint={2409.12031},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.12031}, 
+}
+```
+
