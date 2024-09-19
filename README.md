@@ -1,6 +1,7 @@
 # PhysMamba
 
-Codes of  paper **"PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba"**
+Codes of  paper **"PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba"** 
+[Arxiv](https://arxiv.org/abs/2409.12031)
 
 <img src="figures/Pipeline.png">
 
