@@ -92,7 +92,7 @@ python setup.py install
 - **Training on UBFC-rPPG and Test on PURE**
 
 1. Modify the configuration file `./configs/train_configs/UBFC-rPPG_UBFC-rPPG_PURE_PHYSMAMBA`
-2. Run `python main.py --config_file ./configs/infer_configs/UBFC-rPPG_PURE_PHYSMAMBA_BASIC.yaml`
+2. Run `python main.py --config_file ./configs/train_configs/UBFC-rPPG_UBFC-rPPG_PURE_PHYSMAMBA.yaml`
 
 - **Training on PURE and Test on UBFC-rPPG**
 
