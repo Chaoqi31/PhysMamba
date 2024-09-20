@@ -27,7 +27,7 @@ python setup.py install
 - **Install Mamba**
 
 ```bash
-cd Mamba
+cd mamba
 python setup.py install
 ```
 
