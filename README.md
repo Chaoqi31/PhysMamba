@@ -9,11 +9,9 @@ Codes of  paper **"PhysMamba: Efficient Remote Physiological Measurement with Sl
 
 Code is based on **[rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox)**
 
-- **Environment**
+- **Install packages**
 
 ```bash
-bash setup.sh
-conda activate rppg-toolbox
 pip install -r requirements.txt
 ```
 
