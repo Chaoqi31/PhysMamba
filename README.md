@@ -102,7 +102,7 @@ python setup.py install
 ### Intro-dataset on UBFC-rPPG
 
 1. Modify the configuration file `./configs/train_configs/UBFC_INTRO_PHYSMAMBA.yaml`
-2. Run `python main.py --config_file ./configs/infer_configs/UBFC_INTRO_PHYSMAMBA.yaml`
+2. Run `python main.py --config_file ./configs/train_configs/UBFC_INTRO_PHYSMAMBA.yaml`
 
 # Citation
 
