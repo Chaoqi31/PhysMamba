@@ -1,7 +1,7 @@
 # PhysMamba
 
 Codes of  paper **"PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba"** 
-[Arxiv](https://arxiv.org/abs/2409.12031)
+[Arxiv](https://arxiv.org/abs/2409.12031) Accepted by Chinese Conference on Biometric Recognition (CCBR) 2024
 
 <img src="figures/Pipeline.png">
 
