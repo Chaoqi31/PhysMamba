@@ -107,14 +107,11 @@ python setup.py install
 # Citation
 
 ```latex
-@misc{luo2024physmamba,
-      title={PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba}, 
-      author={Chaoqi Luo and Yiping Xie and Zitong Yu},
-      year={2024},
-      eprint={2409.12031},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.12031}, 
+@inproceedings{luo2024physmamba,
+  title={PhysMamba: Efficient Remote Physiological Measurement with SlowFast Temporal Difference Mamba},
+  author={Chaoqi Luo and Yiping Xie and Zitong Yu},
+  booktitle={Chinese Conference on Biometric Recognition (CCBR)},
+  year={2024}
 }
 ```
 
