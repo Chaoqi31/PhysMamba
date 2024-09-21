@@ -9,9 +9,18 @@ Codes of  paper **"PhysMamba: Efficient Remote Physiological Measurement with Sl
 
 Code is based on **[rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox)**
 
+- **Environment**
+
+```bash
+conda create -n PhysMamba python=3.8
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+```
+
 - **Install packages**
 
 ```bash
+conda create -n PhysMamba python=3.8
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
 ```
 
